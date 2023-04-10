@@ -1,0 +1,342 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*start nav coding*/
+nav{
+    width: 100%;
+    padding: 30px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+nav ul{
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+nav ul .logo{
+    flex: 1;
+}
+nav ul .nav-item{
+    margin-right: 40px;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li i{
+    font-size: 40px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+}
+nav ul img{
+    width: 40px;
+}
+nav ul .toggle{
+    color: #fff;
+    font-size: 30px;
+    display: none;
+}
+.bgColor{
+    transition: all 1s;
+    background-color: gray;
+}
+/**end nav coding**/
+/*start header coding*/
+.header{
+    width: 100%;
+    height:100vh;
+    background: url("../images/men.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header .container{
+    width: 75%;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .container .box-1, .header .container .box-2{
+    width: 42%;
+}
+.header .box-1 h1{
+    font-size: 80px;
+}
+.header .box-1 hr{
+    width: 30%;
+}
+.header .box-1 .icon{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.header .box-1 .icon i{
+    font-size: 30px;
+    cursor: pointer;
+}
+.header .box-2 p{
+    font-size: 16px;
+    color: gainsboro;
+    line-height: 30px;
+}
+.header .box-2 h3{
+    font-size: 40px;
+    margin: 30px 0;
+}
+.header .box-2 .last-p{
+    margin-bottom: 30px;
+}
+.header .box-2 a{
+    color: aqua;
+    font-size: 20px;
+}
+/*end header coding*/
+/*start contact coding*/
+.contact{
+    width:75%;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+.contact .box-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact .box-1 .box-one, .contact .box-1 .box-two{
+    width: 45%;
+}
+.contact .box-1 .box-one p{
+    color:gray;
+    line-height: 25px; 
+}
+.contact .box-1 .box-one h3{
+    margin: 20px 0;
+    font-size: 30px;
+}
+.contact .box-1 .box-one h4{
+    margin: 30px 0;
+    color: gold;
+}
+.contact .box-1 .box-two h3{
+    margin: 20px 0;
+    font-size: 30px;
+}
+.contact .box-1 .box-two p{
+    color:gray;
+    line-height: 25px; 
+}
+.contact .box-1 .box-two div{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contact .box-1 .box-two div span{
+    font-size: 30px;
+    color: gold;
+    margin-right: 10px;
+}
+.contact .box-2{
+    color: #fff;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.contact .box-2 .box-one, .contact .box-2 .box-two, .contact .box-2 .box-three{
+    padding: 200px 30px 30px 30px;
+    width: 30%;
+    border-radius: 10px;
+}
+.contact .box-2 .box-one i, .contact .box-2 .box-two i, .contact .box-2 .box-three i{
+    font-size: 30px;
+}
+.contact .box-2 .box-one h3, .contact .box-2 .box-two h3, .contact .box-2 .box-three h3{
+    font-size: 30px;
+}
+.contact .box-2 .box-one p, .contact .box-2 .box-two p, .contact .box-2 .box-three p{
+    margin-top: 20px;
+}
+.contact .box-2 .box-one{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: gold;
+}
+.contact .box-2 .box-two{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: gray;
+}
+.contact .box-2 .box-three{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: gray;
+}
+/**end contact coding**/
+/*start portfolio coding*/
+.portfolio-full-width{
+    width: 100%;
+    background-color: aliceblue;
+    padding-bottom: 20px;
+}
+.portfolio{
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.portfolio img{
+    width: 100%;
+    cursor: pointer;
+}
+.portfolio .box-1, .portfolio .box-2{
+    width: 45%;
+}
+.portfolio .box-1 .box-one p{
+    color:gray;
+    line-height: 25px; 
+}
+.portfolio .box-1 .box-one h3{
+    font-size: 30px;
+    margin: 20px 0;
+}
+.portfolio .box-1 .box-one button{
+    margin: 30px 0;
+    border: none;
+    background-color: #fff;
+}
+.portfolio .box-1 .box-one a{
+    color: gold;
+    font-size: 20px;
+    padding: 20px 0;
+}
+/*end portfolio coding*/
+/*start blog coding*/
+.blog{
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 70px;
+}
+.blog .box-1{
+    display: flex;
+    justify-content: space-between;
+}
+.blog .box-1 .box-one{
+    width: 30%;
+}
+.blog .box-1 .box-one p{
+    color: gray;
+    margin-bottom: 30px;
+}
+.blog .box-1 .box-one h3{
+    font-size: 25px;
+}
+.blog .box-1 .box-two{
+    width: 60%;
+}
+.blog .box-1 .box-two p{
+    color: gray;
+    line-height: 60px;
+}
+.blog .box-1 .box-two span{
+    color: black;
+    font-size: 17px;
+    margin: 0 50px;
+}
+.blog .box-2{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.blog .box-2 .box-one{
+    width: 30%;
+}
+.blog .box-2 .box-one img{
+    width: 100%;
+}
+.blog .box-2 .box-two{
+    width: 60%;
+}
+.blog .box-2 .box-two h3{
+    line-height: 30px;
+}
+.blog .box-2 .box-two h4{
+    margin: 20px 0 10px 0;
+}
+.blog .box-2 .box-two p{
+    color: gray;
+}
+/*end blog coding*/
+/*start footer coding*/
+.footer-full-width{
+    width: 100%;
+    background-color: aliceblue;
+    margin-top: 20px;
+}
+.footer{
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.footer .box-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer .box-1 .box-one, .footer .box-1 .box-two{
+    width: 45%;
+}
+.footer .box-1 .box-one h3, .footer .box-1 .box-two h3{
+    font-size: 30px;
+}
+.footer .box-1 .box-one p{
+    margin: 30px 0;
+    line-height: 30px;
+    color: gray;
+}
+.footer .box-1 .box-one h4{
+    color: gold;
+    margin-top: 50px;
+}
+.footer .box-1 .box-two p{
+    line-height: 50px;
+    color: gray;
+}
+.footer .box-2{
+    margin-top: 100px;
+    text-align: center;
+}
+.footer .box-2 .box-one i{
+    font-size: 60px;
+    color: gold;
+}
+.footer .box-2 .box-two{
+    color: gray;
+    margin: 30px 0;
+}
+.footer .box-2 .box-three{
+    width: 15%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footer .box-2 .box-three i{
+    font-size: 30px;
+    cursor: pointer;
+}
+/*end footer coding*/
